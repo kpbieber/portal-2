@@ -1,0 +1,82 @@
+﻿[
+  {
+    "name": "Lime Instruments",
+    "host": "https://portal.limeinst.com",
+    "description": "Lime's main portal that hosts our own systems, plus shared with customers who do not need a dedicated solution.",
+    "logo": "/images/lime-logo.png",
+    "bannerImage": "/images/lime-banner.jpg",
+    "tags": [ "shared", "best" ]
+  },
+
+  {
+    "name": "Weir",
+    "host": "https://weir.limeinst.com",
+    "description": "Home of the ARC2.0 Popoff valve, and the Pressure Test Stand. Rich in custom features and integrated with an existing cloud infrastructure.",
+    "tags": [ "spm", "arc", "test stand", "integration", "customizable" ],
+    "logo": "/images/weir-logo.png",
+    "bannerImage": "/images/weir-banner.jpg",
+    "background": "linear-gradient(to right, #005eb6 0%, #005eb6 100%);"
+  },
+  {
+    "name": "Ranger",
+    "host": "https://ranger.limeinst.com",
+    "description": "Work-over rig that keeps everyone on the same page.",
+    "logo": "/images/ranger-logo.png",
+    "bannerImage": "/images/ranger-banner.jpg",
+    "tags": [],
+    "background": "linear-gradient(to right, #000000 0%, #000000 100%);"
+  },
+  {
+    "name": "Bosque Systems",
+    "host": "https://bosque.limeinst.com",
+    "description": "Flow monitoring with dynamic chemical assignments. Advanced formulas and mappings displayed in a webpage.",
+    "logo": "/images/bosque-logo.png",
+    "bannerImage": "/images/bosque-banner.png",
+    "tags": [ "new" ],
+    "background": "linear-gradient(to right, #333 0%, #333 100%);"
+  },
+  {
+    "name": "Energy Recovery",
+    "host": "https://vorteq.limeinst.com",
+    "logo": "/images/energyrecovery-logo.png",
+    "bannerImage": "/images/energyrecovery-banner.png",
+    "background": "linear-gradient(to right, #ffffff 0%, #ffffff 100%);",
+    "description": "Experimental frac technology with a slick interface.",
+    "tags": [ "frac", "blender", "technology!" ]
+  },
+  {
+    "name": "Southwestern Energy",
+    "host": "https://swn.limeinst.com",
+    "description": "Classic datavan application with a revolving door of users.",
+    "tags": [ "datavan", "frac" ],
+    "logo": "/images/swn-logo.png",
+    "bannerImage": "/images/swn-banner.jpg",
+    "background":"linear-gradient(to right, #ffffff 0%, #ffffff 100%);"
+  },
+  {
+    "name": "Proflex Technologies",
+    "host": "https://proflex.limeinst.com",
+    "description": "AIM based continuous integrity monitoring for oil and gas pipelines. Leak detection application fed by proprietary algorithms.",
+    "tags": [ "aim", "monitoring", "gas", "pipeline", "custom" ],
+    "logo": "/images/proflex-logo.png",
+    "bannerImage": "/images/proflex-banner.png",
+    "background": "linear-gradient(to right, #ff9900 0%, #ffff99 100%);"
+  },
+  {
+    "name": "Liberty OFS",
+    "host": "https://liberty.limeinst.com",
+    "logo": "/images/liberty-logo.png",
+    "bannerImage": "/images/liberty-banner.jpg",
+    "description": "Liberty maintains a large fleet of pumps and uses TDMS Zip and Post as a one-step monitoring solution",
+    "tags": [ "frac", "pumping", "aim", "monitoring", "predictive", "tdms" ]
+  },
+  {
+    "name": "Lime Sandbox",
+    "host": "https://sandbox.limeinst.com",
+    "description": "Cutting edge features, latest developments, and no garauntee of success.",
+    "logo": "/images/lime-logo.png",
+    "bannerImage": "/images/lime-banner.jpg",
+    "tags": [ "new" ]
+  }
+]
+

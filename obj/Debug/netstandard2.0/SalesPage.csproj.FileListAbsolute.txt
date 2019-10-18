@@ -1,0 +1,4 @@
+C:\Lime_Dev\Webpages\Sales\BlazorApp1\obj\Debug\netstandard2.0\SalesPage.csprojAssemblyReference.cache
+C:\Lime_Dev\Webpages\Sales\BlazorApp1\obj\Debug\netstandard2.0\SalesPage.csproj.CoreCompileInputs.cache
+C:\Lime_Dev\Webpages\Sales\BlazorApp1\obj\Debug\netstandard2.0\SalesPage.AssemblyInfoInputs.cache
+C:\Lime_Dev\Webpages\Sales\BlazorApp1\obj\Debug\netstandard2.0\SalesPage.AssemblyInfo.cs

@@ -1,0 +1,58 @@
+﻿@page "/"
+@inject HttpClient Http
+@using BlazorApp1.Classes
+<h1>Lime Cloud Users</h1>
+
+<p>Some of our favorite portal implementations.</p>
+
+@if (portals == null)
+{
+<div class="spinner-border" role="status">
+    <span class="sr-only">Loading...</span>
+</div>
+}
+else
+{
+<div id ="customerCards" class="row">
+    @foreach (var port in portals)
+    {
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+        <PortalCard portal="@port"></PortalCard>
+    </div>
+        
+    }
+</div>
+}
+<style>
+
+    .customerCard{
+        margin-bottom:25px;
+    }
+    .customerCard .card-img-top {
+        height: 150px;
+        object-fit: cover;
+        object-position:bottom;
+    }
+    .customerCard .card-footer{
+        height: 120px;
+        text-align:center;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .customerCard .card-body{
+        height: 300px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+</style>
+@code {
+
+    Portal[] portals;
+    protected override async Task OnInitializedAsync()
+    {
+        portals = await Http.GetJsonAsync<Portal[]>("/sample-data/portals.json");
+    }
+
+}
